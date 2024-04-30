@@ -12,6 +12,12 @@ export default function App() {
   return (
     <View style={styles.container}>
       
+      <Image style={{ position: 'absolute',
+        top: 410,
+        left:1 }}
+        source={billieBackGround}>
+      </Image>
+
       <View style={styles.contentHeader}>
         
         <TouchableOpacity style={styles.headerBackButton}>
@@ -54,13 +60,7 @@ export default function App() {
 
       </View>
 
-      <Image style={{ position: 'absolute',
-        top: 510,
-        width:340,
-        height:340,
-        left:1 }}
-        source={billieBackGround}>
-      </Image>
+      
       
       <Image style={{position: 'absolute', left:235, top: 539}} source={backgroundLines}/>
         
